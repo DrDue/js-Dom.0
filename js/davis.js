@@ -96,7 +96,7 @@ let t3 = function ( ev ) {
 let initializeR = function () {
   let right = $( 'right' );
   fill( right );
-  center.addEventListener( 'click', t3, false );
+  right.addEventListener( 'click', t3, false );
 }
 
 window.addEventListener( 'load', function () {
